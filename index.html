@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade,Nascimento</title>
+    <link rel="stylesheet" href="style1.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Verificar Idade</h1>
+
+    </header>
+    <main>
+        <div class="content">
+            <div class="parede1">
+                <div>
+                    <p>Ano de Nascimento:
+                        <input type="number" name="n1" id="n1">
+                    </p>
+                    
+                    <p>Sexo:
+                        <input type="radio" id="sexo-m" name="sexo" checked>
+                        <label for="masc">Masculino</label>
+                        <input type="radio" id="sexo-f" name="sexo" value="feminino">
+                        <label for="fem">Feminino</label>
+                        
+                    </p>
+
+                    <p>
+                        <input id="but"  type="button" value="Verificar" onclick="verificar()">
+
+                    </p>
+
+                </div>
+                <div id="msg">Preencha os dados acima para ver resultado !
+
+                </div>
+            </div>
+        </div>     
+    </main>
+    <footer>
+        <h1> ©Matheus Brilhante</h1>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
